@@ -1,0 +1,114 @@
+<?php
+
+
+
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario/estilo.css">
+    <title>Nanotecnologia</title>
+</head>
+<body>
+    <br>
+    <center><h1>Nanotecnologia</h1></center>
+    <nav>
+        <ul class="Menu">
+            <li><a href="../Index.html">Inicio</a></li>
+            <li>
+                <a href="">Articulos</a>
+                <ul class="vertical">
+                    <li><a href="../paginas/pagina1.html">Nanotecnologia en Mexico</a></li>
+                    <li><a href="../paginas/pagina2.html">Medicina</a></li>
+                    <li><a href="../paginas/pagina3.html">Inmortalidad</a></li>
+                </ul>
+            </li>
+            <li><a href="../paginas/info.html">Informacion personal</a></li>
+            <li><a href="index.php">Formulario</a></li>
+        </ul>
+    </nav>
+
+    <!--Formulario-->
+    <main>
+        <div>
+            <form class="alumnos" action="formulario/gua.php" method="post">
+                <ul>
+                    <li>
+                        <center><h2>Ayudanos a mejorar!!</h2></center>
+                        <span class="required_notification">*Datos requeridos</span>
+                    </li>
+
+                    <li>
+                        <label for="Nombre">
+                         Nombre:
+                        </label>
+                          <input type="text" name="Nombre" placeholder="Nombre" value="" maxlenght="30" required>
+                        <span class="form_hint">Formato correcto "Yolanda"</span>
+                    </li>
+
+                    
+                    <li>
+                        <label for="Marca">
+                         Esta sadisfecho con la pagina?:
+                        </label>
+                          <input type="text" name="Marca" placeholder="si/no" value="" maxlenght="30" required>
+                        <span class="form_hint">Formato correcto "si/no"</span>
+                    </li>
+
+                    <li>
+                    Frecuencia en la que visita la pagina:
+                        <select name="Frecuencia" >
+                           <option value="Diario">Diario</option>
+                           <option value="Una vez por semana">Una vez por semana</option>
+                           <option value="una vez al mes">una vez al mes</option>
+                           <option value="en raras ocasiones">en raras ocasiones</option>
+                        
+                        </select>
+                    </li>
+
+
+                    <li>
+                        <label for="Restaurante">
+                         En que puede mejorar la pagina?:
+                        </label>
+                          <input type="text" name="Restaurante" placeholder="---" value="" maxlenght="30" required>
+                        <span class="form_hint">Formato correcto "Respuesta de maximo 30 caracteres"</span>
+                    </li>
+
+                    <li>
+                        Volveria a usar la pagina?:
+                        <select name="PF" >
+                           <option value="Crepa">---</option>
+                           <option value="Pastel">si</option>
+                           <option value="Chocolate">no</option>
+                        </select>
+                    </li>
+
+                    <li>
+                    <center>
+                        <button class="sumbit" type="sumbit">Enviar</button>
+                    </center>
+                    </li>
+                </ul>
+            </form>
+        </div>
+</main>
+   <!--------------->    
+</body>
+
+
+<footer>
+        
+    <div class="icon">
+        <a href="" class="social-icon"></a>
+        <a href="" class="social-icon"></a>
+        
+    </div>
+    <span class="copyright">&copy;2023, Victor Hugo Trujllo. Derechos Reservados</span>
+</footer>
+</html>
